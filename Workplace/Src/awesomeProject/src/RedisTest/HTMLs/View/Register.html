@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<script>
+    function loadXMLDoc()
+    {
+         var username = document.getElementById("username").value;
+         var password = document.getElementById("password").value;
+
+        alert(username + password);
+
+        var xmlhttp;
+        if (window.XMLHttpRequest)
+        {
+            //  IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
+            xmlhttp=new XMLHttpRequest();
+        }
+        else
+        {
+            // IE6, IE5 浏览器执行代码
+            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange=function()
+        {
+            if (xmlhttp.readyState==4 && xmlhttp.status==200)
+            {
+                window.location.href = './index.html'
+            }
+        }
+        xmlhttp.open("post","http://localhost:9091/login", true);
+        xmlhttp.send("username:%s,password:%s",username,password);
+    }
+</script>
+
+<body>
+    <div id="myDiv"><h2>Login</h2></div>
+    <input type="text" id="username">
+    <input type="password" id="password">
+    <button type="button" onclick="loadXMLDoc()">Submit</button>
+</body>
+</html>

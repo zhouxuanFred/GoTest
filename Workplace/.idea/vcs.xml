@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Src/github.com/garyburd/redigo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Src/github.com/iris-contrib/httpexpect" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Src/github.com/kataras/golog" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Src/github.com/kataras/iris" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Src/github.com/kataras/pio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/go/src/github.com/garyburd/redigo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/go/src/github.com/iris-contrib/httpexpect" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/go/src/github.com/kataras/golog" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/go/src/github.com/kataras/iris" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/go/src/github.com/kataras/pio" vcs="Git" />
+  </component>
+</project>
