@@ -2,17 +2,17 @@ package basic
 
 import "fmt"
 
-func lengthOfNonRepeatingSubStr(str string) int{
+func lengthOfNonRepeatingSubStr(str string) int {
 	maxlenth := 0
 	lastoccured := make(map[byte]int)
 	start := 0
 
 	fmt.Println(lastoccured)
-	for num,value := range []byte(str) {
-		if lastI,ok := lastoccured[value];ok && lastI >= start{
+	for num, value := range []byte(str) {
+		if lastI, ok := lastoccured[value]; ok && lastI >= start {
 			start = lastI + 1
 		}
-		if num-start+1 > maxlenth{
+		if num-start+1 > maxlenth {
 			maxlenth = num - start + 1
 		}
 		lastoccured[value] = num
