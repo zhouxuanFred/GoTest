@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7e74396-1180-432e-bab9-86d98009d8f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spider/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/entryPoint/entryPoint.go" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/entryPoint/entryPoint.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/node.go" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/node.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/Arrays.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/Arrays.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/fucniton.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/fucniton.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/map.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/map.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slice.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/unicodeTest.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/unicodeTest.go" afterDir="false" />
-    </list>
+    <list default="true" id="c7e74396-1180-432e-bab9-86d98009d8f4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,21 +14,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tree/node.go">
+        <entry file="file://$PROJECT_DIR$/src/Tree/node.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            <state relative-caret-position="90">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tree/entryPoint/entryPoint.go">
+        <entry file="file://$PROJECT_DIR$/src/Tree/entryPoint/entryPoint.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            <state relative-caret-position="105">
+              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
-                <element signature="e#14#57#0" expanded="true" />
+                <element signature="e#14#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,38 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spider/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-              <folding>
-                <element signature="e#14#76#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Go/src/net/http/client.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1972">
-              <caret line="129" column="14" selection-start-line="129" selection-start-column="14" selection-end-line="129" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Go/src/strings/reader.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2414">
-              <caret line="146" column="1" selection-start-line="146" selection-start-column="1" selection-end-line="146" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Go/src/net/http/request.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13260">
-              <caret line="801" column="5" selection-start-line="801" selection-start-column="5" selection-end-line="801" selection-end-column="5" />
+            <state relative-caret-position="120">
+              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -98,7 +57,7 @@
       <dir>C:\Go\src</dir>
     </dirStrings>
   </component>
-  <component name="GOROOT" path="C:/Go" />
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.12.4/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <favorite-branches>
@@ -126,10 +85,9 @@
     <option name="indexEntireGoPath" value="false" />
     <option name="urls">
       <list>
-        <option value="file://$PROJECT_DIR$/.." />
+        <option value="file://$PROJECT_DIR$" />
       </list>
     </option>
-    <option name="useGoPathFromSystemEnvironment" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -142,15 +100,17 @@
         <option value="$PROJECT_DIR$/Tree/entryPoint.go" />
         <option value="$PROJECT_DIR$/Tree/node.go" />
         <option value="$PROJECT_DIR$/Tree/entryPoint/entryPoint.go" />
+        <option value="$PROJECT_DIR$/src/Tree/node.go" />
+        <option value="$PROJECT_DIR$/src/Tree/entryPoint/entryPoint.go" />
         <option value="$PROJECT_DIR$/spider/main.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="112" />
-    <option name="y" value="28" />
-    <option name="width" value="1647" />
-    <option name="height" value="921" />
+    <option name="x" value="2" />
+    <option name="y" value="54" />
+    <option name="width" value="1189" />
+    <option name="height" value="677" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -170,6 +130,11 @@
               <item name="GoTrians" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoTrians" type="462c0819:PsiDirectoryNode" />
               <item name="spider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoTrians" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoTrians" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -191,10 +156,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="go" />
+    <property name="settings.editor.selected.configurable" value="go.autoimport" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="D:\Goland\GoTrians\Tree\entryPoint" />
       <recent name="$PROJECT_DIR$/Tree/entryPoint" />
     </key>
@@ -211,7 +177,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
+  <component name="RunManager" selected="Go Build.go build entryPoint.go (1)">
+    <configuration name="go build entryPoint.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoTrians" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/Tree/entryPoint/entryPoint.go" />
+      <package value="GoTest/GoTrians" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build entryPoint.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoTrians" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Tree/entryPoint/entryPoint.go" />
+      <package value="GoTest/GoTrians" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoTrians" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -221,27 +205,11 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build map.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoTrians" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/map.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build node.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoTrians" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/Tree/node.go|D:\Goland\GoTrians\Tree\entryPoint\entryPoint.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build slice.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoTrians" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/slice.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -255,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build entryPoint.go (1)" />
+        <item itemvalue="Go Build.go build entryPoint.go" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build node.go" />
         <item itemvalue="Go Build.go build unicodeTest.go" />
-        <item itemvalue="Go Build.go build map.go" />
-        <item itemvalue="Go Build.go build slice.go" />
       </list>
     </recent_temporary>
   </component>
@@ -273,23 +241,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="112" y="28" width="1647" height="921" extended-state="0" />
+    <frame x="2" y="54" width="1189" height="677" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49649122" visible="true" weight="0.2331443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49649122" visible="true" weight="0.29642546" />
       <window_info id="Structure" order="1" sideWeight="0.50350875" side_tool="true" weight="0.2331443" />
       <window_info id="Favorites" order="2" sideWeight="0.50252527" side_tool="true" weight="0.21116506" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6502836" weight="0.4017744" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4995587" weight="0.3967047" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6495205" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49869224" weight="0.39501038" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3269962" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49956408" weight="0.32640332" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.59974587" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.34341526" side_tool="true" weight="0.27756655" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.65658474" weight="0.22940432" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.59974587" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013078" side_tool="true" weight="0.39501038" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.65658474" weight="0.34700856" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -324,12 +293,26 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/../.." />
       <path value="$PROJECT_DIR$/src/github.com/gpmgo/gopm" />
-      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
@@ -347,51 +330,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tree/node.go">
+    <entry file="file://C:/Go/src/net/http/client.go" />
+    <entry file="file://C:/Go/src/strings/reader.go" />
+    <entry file="file://C:/Go/src/net/http/request.go" />
+    <entry file="file://$PROJECT_DIR$/src/Tree/node.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        <state relative-caret-position="90">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tree/entryPoint/entryPoint.go">
+    <entry file="file://$PROJECT_DIR$/src/Tree/entryPoint/entryPoint.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
-            <element signature="e#14#57#0" expanded="true" />
+            <element signature="e#14#43#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Go/src/net/http/client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1972">
-          <caret line="129" column="14" selection-start-line="129" selection-start-column="14" selection-end-line="129" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Go/src/strings/reader.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2414">
-          <caret line="146" column="1" selection-start-line="146" selection-start-column="1" selection-end-line="146" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Go/src/net/http/request.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13260">
-          <caret line="801" column="5" selection-start-line="801" selection-start-column="5" selection-end-line="801" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spider/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#14#76#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
