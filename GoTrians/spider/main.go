@@ -3,10 +3,11 @@ package main
 import (
 	"bytes"
 	"fmt"
+	"golang.org/x/text/encoding/simplifiedchinese"
+	"golang.org/x/text/transform"
 	"io/ioutil"
 	"net/http"
 	"strings"
-
 )
 
 func gbk2utf8(str []byte) ([]byte, error) {
@@ -16,7 +17,7 @@ func gbk2utf8(str []byte) ([]byte, error) {
 func main() {
 	clint := &http.Client{}
 	var resp *http.Response
-	reqest, err := http.NewRequest("POST", "https://cn.sterlingcommerce.com/mainMenu.html", strings.NewReader("j_username=zhouxun5%40lenovo.com&j_password=gPHwO7wXmuBOld6n&loginButton=Sign+In"))
+	reqest, err := http.NewRequest("POST", "https://cn.sterlingcommerce.com/login.jsp", strings.NewReader("j_username=zhouxun5@lenovo.com&j_password=gPHwO7wXmuBOld6n&loginButton=Sign+In"))
 	if err != nil {
 		panic(err)
 	}
@@ -63,5 +64,5 @@ func main() {
 	}
 
 	buff, _ = gbk2utf8(buff)
-
+	fmt.Printf("%s",buff)
 }
